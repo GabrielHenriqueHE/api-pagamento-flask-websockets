@@ -1,0 +1,13 @@
+[project]
+name = "api-pagamento-flask-websockets"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "flask==2.3.0",
+    "flask-socketio==5.3.6",
+    "flask-sqlalchemy==3.1.1",
+    "pillow==10.2.0",
+    "qrcode>=8.1",
+]
